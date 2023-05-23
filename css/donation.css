@@ -1,0 +1,274 @@
+.donation_first {
+  background-image: url('https://img.onl/tLIA0j');
+  width: 100%;
+  height: 100vh;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation_first .breadcrumb_list span{
+  color: #BC5C56;
+  margin-left: 397px;
+  
+}
+
+.donation_first .donationgroup {
+  display: inline-flex;
+  align-items: center;
+  width: 1200px;
+  height: 1004px;
+  gap: 52px;
+}
+
+.donation_first .animationgroup {
+margin-top: -136px;
+}
+
+.donation_first .donationanimation {
+  background-color: #ffffff;
+  width: 545px;
+  height: 672px;
+  border: 2px solid #BC5C56;
+  margin-top: 68px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.donation_first .animationtitle,
+.gifttitle {
+  color: #ffffff;
+  background-color: #BC5C56;
+  font-family: 'Noto Sans TC';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  align-items: center;
+  text-indent: 30px;
+}
+
+.donation_first .gifanimation iframe {
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.donation_first .gifanimation {
+  background-color: #460801;
+  vertical-align: bottom;
+  height: 140px;
+  margin-top: 470px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.donation_first .giftgroup {
+  background-color: #ffffff;
+  width: 545px;
+  height: 253px;
+  border: 2px solid #BC5C56;
+  margin-top: 10px;
+}
+
+.donation_first .giftgroup p {
+  color: #BC5C56;
+  font-family: 'Noto Sans TC';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140px;
+  letter-spacing: 0.03em;
+  text-indent: 30px;
+}
+
+
+.donation_first .donationamountgroup {
+  background-color: #FAD2D3;
+  width: 626px;
+  height: 917px;
+  text-indent: 15px;
+  border: 2px solid #BC5C56;
+  margin-top: -90px;
+}
+
+.donation_first .donationamount {
+  display: inline-block;
+  color: #BC5C56;
+  font-family: 'Noto Sans TC';
+  font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.03em;
+}
+
+.donation_first .donationamount .targetamount{
+  text-indent: 345px;
+}
+
+.donation_first .donationamount span{
+  color: #806060;
+}
+
+.donation_first .targetamountbar {
+  display: inline-block;
+  width: 540px;
+  height: 36px;
+  position: relative;
+  margin-left: 14px;
+  /* 添加相对定位 */
+}
+
+.donation_first .currentamount {
+  position: absolute;
+  /* 添加绝对定位 */
+  top: 0;
+  left: 0;
+  width: 226px;
+  height: 36px;
+  background-color: #BC5C56;
+}
+
+.donation_first .estimatedamount {
+  position: absolute;
+  /* 添加绝对定位 */
+  top: 0;
+  left: 226px;
+  /* 使用负边距调整位置 */
+  width: 314px;
+  height: 36px;
+  background-color: #ffffff;
+}
+
+
+.donation_first .decorativeline{
+  background-color: #BC5C56;
+  width: 550px;
+  height: 1px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.donation_first .donationoptions{
+  display: inline-block;
+  color: #BC5C56;
+  font-family: 'Noto Sans TC';
+  font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.03em;
+}
+
+.donation_first .regulardonationbtn {
+  background-color: #BC5C56;
+  width: 269px;
+  height: 98px;
+  color: #ffffff;
+  font-family: 'Noto Sans TC';
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  line-height: 93px;
+  letter-spacing: 0.03em;
+  border-radius: 10px 10px 10px 10px;
+  display: inline-block;
+  margin-right: -6px;
+}
+
+.donation_first .donationbtn {
+  background-color: #ffffff;
+  width: 269px;
+  height: 98px;
+  color: #9F9F9F;
+  font-family: 'Noto Sans TC';
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  line-height: 93px;
+  letter-spacing: 0.03em;
+  border-radius: 10px 10px 10px 10px;
+  display: inline-block;
+}
+
+.donation_first .donationstage {
+  display: flex;
+  flex-direction: row;
+}
+
+.donation_first .donationstage:hover {
+  color: #D2A06C;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+.donation_first .donationleft_text {
+  margin-right: 24px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.donation_first .donation_ntd {
+  font-size: 24px;
+  margin-bottom: 05px;
+}
+
+.donation_first .donation_number {
+  font-size: 48px;
+}
+
+.donation_first .donationright_text {
+  font-size: 24px;
+  margin-top: 37px;
+  flex: 1;
+}
+
+.donation_first .paymentoptionstext{
+  margin-bottom: -10px;
+}
+
+.donation_first input[type="text"] {
+  padding: 10px;
+  border: 2px solid #BC5C56;
+  border-radius: 10px;
+  font-size: 24px;
+  outline: none;
+  width: 136px
+}
+
+.donation_first input[type="text"]:focus {
+  border-color: #D2A06C;
+  font-size: 24px;
+  color: #BC5C56;
+}
+
+.donation_first label {
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.donation_first input[type="checkbox"] {
+  margin-right: 4px;
+}
+
+
+.donation_first .accountnextbtn {
+  background-color: #BC5C56;
+  width: 551px;
+  height: 49px;
+  color: #ffffff;
+  font-family: 'Noto Sans TC';
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 0.03em;
+  display: block;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid #4D4848;
+  margin-top: 15px;
+  margin-left: 10px;
+}
