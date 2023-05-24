@@ -14,12 +14,12 @@
 }
 
 .adanimation_group {
-    width: 1200px;
+    width: 1920px;
     height: 954px;
 }
 
 .adanimationpic {
-width: 1200px;
+width: 1920px;
 height: 880px;
 }
 
@@ -29,19 +29,16 @@ height: 100%;
 }
 
 .adanimationtext{
-    background-color: #BC5C56;
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Noto Sans TC';
 font-weight: 700;
 font-size: 64px;
-line-height: 64px;
+line-height: 150px;
 display: inline-flex;
 align-items: center;
-/* text-indent: 517px; */
-text-indent: 250px;
+text-indent: 600px;
 letter-spacing: 0.335em;
-width: 1200px;
-height: 208px;
+width: 1920px;
 }
 
 /* 以下是 index_secondarea */
@@ -313,7 +310,7 @@ height: 208px;
     line-height: 34px;
     letter-spacing: 0.09em;
     margin-top: 600px;
-    margin-left: -335px;
+    margin-left: -261px;
     text-align: right;
 }
 
