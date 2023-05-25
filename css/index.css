@@ -43,7 +43,7 @@ width: 1920px;
 
 /* 以下是 index_secondarea */
 .index_secondarea {
-    background-image: url('https://img.onl/tLIA0j');
+    background-image: url("pic/background.png");
     width: 100%;
     height: 100vh;
     display: inline-flex;
