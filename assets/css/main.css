@@ -3421,6 +3421,16 @@ body.is-menu-visible #menu .close {
 	background-color: #ffffff;
 }
 
+/* drinksdetil.html price */
+.price {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #BC5C56;
+	clip-path: inset(250px 0px 490px 1100px round 0px);
+}
 
 @media screen and (max-width: 1200px) {
 	#header nav ul li a[href="#menu"] {
@@ -3434,8 +3444,19 @@ body.is-menu-visible #menu .close {
 	.breadcrumb {
 		padding-left: 7.5%;
 	}
+
+	/* drinksdetil.html imgSlider */
+	.price {
+		clip-path: inset(290px 0px 480px 850px round 0px);
+	}
 }
 
+/* drinksdetil.html imgSlider */
+
+.drinkscontent .imgBox img {
+	max-width: 400px;
+	padding-bottom: 60%;
+}
 
 @media screen and (max-width: 1024px) {
 	#header nav ul li a[href="#menu"] {
@@ -3449,6 +3470,16 @@ body.is-menu-visible #menu .close {
 	.breadcrumb {
 		padding-left: 3.5%;
 	}
+
+	.drinkscontent .imgBox img {
+		max-width:300px;
+		padding-bottom: 60%;
+		}
+
+    .price {
+        clip-path: inset(200px 0px 370px 750px round 0px)
+    }
+	
 }
 
 @media screen and (max-width: 980px) {
@@ -3527,6 +3558,41 @@ body.is-menu-visible #menu .close {
 	padding: 0 2.5em;
 }
 
+/* drinksdetil.html imgSlider */
+.drinkscontent .imgBox {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+/* drinksdetil.html imgSlider word */
+.drinkscontent .textBox {
+	position: relative;
+	max-width: 600px;
+	margin-right: 1%;
+}
+
+@media screen and (max-width: 768px) {
+	.drinkscontent .imgBox{
+    margin-left: 5%;}
+
+	.drinkscontent .imgBox img {
+		max-width:300px;
+		padding-bottom: 60%;
+		}
+		.currentprice {
+		display: none;}
+		
+		.price {
+			display: none; ;
+		}
+
+		.drinkscontent .textBox {
+		margin-right: 5%;}
+}
+
+
 @media screen and (max-width: 736px) {
 
 	#wrapper>*>.inner {
@@ -3537,6 +3603,64 @@ body.is-menu-visible #menu .close {
 		top: 48px;
 	}
 
+}
+
+/* drinksdetil.html imgSlider */
+.thumb {
+	position: absolute;
+	left: 50%;
+	bottom: 1%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+/* drinksdetil.html first */
+.drinkscontent {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* drinksdetil.html imgSlider word */
+
+.drinkscontent .textBox h1 {
+	color: #BC5C56;
+	font-size: 4em;
+	font-weight: 700;
+	margin-bottom: 1%;
+}
+
+@media screen and (max-width: 360px) {
+	.drinkscontent .imgBox{
+    margin-left: 5%;}
+
+	.drinkscontent .imgBox img {
+		max-width:300px;
+		padding-bottom: 0%;
+		}
+		.currentprice {
+		display: none;}
+		
+		.price {
+			display: none; ;
+		}
+
+		.drinkscontent .textBox {
+		margin-right: 5%;}
+
+		.thumb {
+			display: none;
+		}
+
+		.drinkscontent {
+			flex-direction: column;
+		}
+
+		.drinkscontent .textBox h1 {
+			font-size: 3em;
+		}
 }
 
 /* slide */
@@ -3595,4 +3719,80 @@ a {
 	color: rgba(255, 255, 255, 0.6);
 	text-align: center;
 	letter-spacing: 0.335em;
+}
+
+
+/* drinkproducts */
+.productslider {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #bc5c56
+}
+
+/* drinksdetil.html imgSlider */
+.drinkbackground {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #FAD2D3;
+	clip-path: inset(190px 150px 10px 150px round 50px);
+}
+
+/* drinksdetil.html price */
+.currentprice {
+	width: 150px;
+	color: #fff;
+	font-size: 3em;
+	line-height: 2em;
+	font-weight: 700;
+	margin-bottom: 19%;
+}
+
+/* drinksdetil.html imgSlider word */
+.drinkscontent .textBox span {
+	color: #BC5C56;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.drinkscontent .textBox p {
+	color: #BC5C56;
+	font-weight: 700;
+	margin-bottom: 1em;
+}
+
+
+/* drinksdetil.html price */
+
+.drinkbackground {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #FAD2D3;
+	clip-path: inset(100px 0px 0px 0px round 50px);
+}
+
+/* drinksdetil.html imgSlider */
+
+.thumb li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 50px;
+	cursor: pointer;
+	transition: 0.5%;
+}
+
+.thumb li:hover {
+	transform: translateY(-15px);
+}
+
+
+.thumb li img {
+	max-width: 60px;
 }
